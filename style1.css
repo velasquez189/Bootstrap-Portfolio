@@ -1,0 +1,48 @@
+Navigation Panel
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+    box-sizing: border-box;
+    line-height:25px;
+}    
+.About {
+    float:left;
+    position: relative;
+    display: block;
+    color: black;
+    background-color: grey;
+}
+.Portfolio {
+    float:left;
+    position: relative;
+    display: block;
+    color:black;
+    background-color: grey;
+
+}
+.Contact {
+    float:left;
+    position: relative;
+    display: block;
+    color: black;
+    background-color: grey;
+
+}
+
+/* IMAGE SRC */
+img {
+    width: 70%;
+    height: auto;
+}
+
+/* STICKY FOOTER */
+.panel-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
